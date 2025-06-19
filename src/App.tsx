@@ -1,7 +1,15 @@
-import { useEffect } from 'react';
 import './App.css';
 
 function App() {
+    const skills = [
+        'Problem Solving',
+        'Critical Thinking',
+        'Cooperation',
+        'Responsibility',
+        'Respect',
+        'Citizenship',
+    ];
+
     return (
         <>
             <div className="title">
@@ -16,7 +24,14 @@ function App() {
                 the greats of the 21st Century and to be respected and loved by
                 the people. It teaches them valuable skills and traits such as:
             </p>
-            <div className="marquee"></div>
+            {skills.map((skill, index) => {
+                <li
+                    key={skill}
+                    style={{animationDelay: `${index}`}}
+                >
+                    {skill}
+                </li>
+            })}
             <p>
                 We at ELS call them “The 6 Keys of Success.” Equipped with these
                 valuable and important skills, the students are ready to go out

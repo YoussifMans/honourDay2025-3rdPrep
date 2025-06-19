@@ -1,10 +1,12 @@
 {
-    "keys": [
-        "Problem Solving",
-        "Criical Thinking",
-        "Citizenship",
-        "Cooperation",
-        "Respect",
-        "Responsibility"
-    ]
+    "highCommSkills": {
+        "title": "Leadership",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptatibus, eaque praesentium sapiente, ex quis laborum voluptates similique enim tenetur, quam esse. Iusto commodi eum alias laudantium, labore itaque numquam, corporis pariatur molestiae sunt architecto quod hic suscipit veritatis nemo recusandae dolor optio officiis provident molestias illo. Similique, qui sunt?",
+        "characters": {
+            "ahmedIsmail": {
+                "name": "Field Marshal Ahmed Ismail",
+                "image": "/characters/ahmedIsmail.jpg"
+            }
+        }
+    }
 }
