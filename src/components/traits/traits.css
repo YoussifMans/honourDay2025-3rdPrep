@@ -1,0 +1,60 @@
+.traitsMarquee {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.trait {
+    text-align: center;
+    align-items: center;
+    animation: move 3s forwards;
+    background-color: #364156;
+    min-width: 150px;
+    gap: 20px;
+    padding-block: 20px;
+    border-radius: 10px;
+
+    p {
+        text-align: center;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+
+        img {
+            border-radius: 1000px;
+            width: 128px;
+            aspect-ratio: 1;
+        }
+    }
+}
+
+.characters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    overflow: scroll;
+}
+
+.character {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    appearance: none;
+    background-color: #364156;
+    border: none;
+    border-radius: 100px;
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    cursor: pointer;
+    color: white;
+    font: inherit;
+}
