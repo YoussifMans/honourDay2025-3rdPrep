@@ -32,7 +32,7 @@ export default function Traits() {
     const [traitNumber, setTraitNumber] = useState(0);
 
     useEffect(() => {
-        fetch('/characters/contents.json')
+        fetch('characters/contents.json')
             .then((res) => res.json())
             .then((data) => {
                 console.log(data);
