@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Leadership",
+        "description": "Students are equiped with the skills needed to become powerful leaders and lead their teammates to success and glory.",
+        "characters": [
+            {
+                "name": "Field Marshal Ahmed Ismail",
+                "image": "/characters/ahmedIsmail.jpg"
+            },
+            {
+                "name": "Youssif Mansour",
+                "image": "https://picsum.photos/128/128"
+            }
+        ]
+    },
+    {
+        "title": "Self-Motivation and Self-Awareness",
+        "description": "Students are self-aware and self-motivated to do what they shine at and be proud",
+        "characters": [
+            {
+                "name": "Dr. Samira Mousa",
+                "image": "/characters/samiraMousa.jpg"
+            }
+        ]
+    }
+]
