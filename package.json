@@ -3,12 +3,15 @@
     "private": true,
     "version": "0.0.0",
     "type": "module",
+    "homepage": "http://YoussifMans.github.io/honourDay2025-3rdPrep",
     "scripts": {
         "dev": "vite",
         "build": "tsc -b && vite build",
         "lint": "eslint .",
         "preview": "vite preview",
-        "prettier": "prettier . --write"
+        "prettier": "prettier . --write",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -b main -d build"
     },
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^6.7.2",
@@ -25,6 +28,7 @@
         "eslint": "^9.25.0",
         "eslint-plugin-react-hooks": "^5.2.0",
         "eslint-plugin-react-refresh": "^0.4.19",
+        "gh-pages": "^6.3.0",
         "globals": "^16.0.0",
         "prettier": "^3.5.3",
         "typescript": "~5.8.3",

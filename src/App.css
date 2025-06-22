@@ -5,7 +5,7 @@
 
 body {
     background-color: #011638;
-    color: #DFF8EB;
+    color: #dff8eb;
     text-align: center;
     font-family: 'Poppins';
     padding-block: 20px;
@@ -27,7 +27,7 @@ p {
 
 /* width */
 ::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 .logo {
@@ -49,6 +49,7 @@ p {
     border-radius: 10px;
 }
 
-h1, h3 {
+h1,
+h3 {
     line-height: 10px;
 }

@@ -1,4 +1,12 @@
-import { faBrain, faCircleCheck, faHandshake, faHandsPraying, faLandmark, faLightbulb, type IconDefinition } from '@fortawesome/free-solid-svg-icons';
+import {
+    faBrain,
+    faCircleCheck,
+    faHandshake,
+    faHandsPraying,
+    faLandmark,
+    faLightbulb,
+    type IconDefinition,
+} from '@fortawesome/free-solid-svg-icons';
 import './App.css';
 import Traits from './components/traits/traits';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -18,7 +26,11 @@ function App() {
             <div className="title">
                 <h1>ELS Honour Day</h1>
                 <h3>2025 - 3rd Prep</h3>
-                <img className='logo' src="https://placehold.co/256" alt="Honour Day Logo" />
+                <img
+                    className="logo"
+                    src="https://placehold.co/256"
+                    alt="Honour Day Logo"
+                />
             </div>
 
             <p>
@@ -30,9 +42,9 @@ function App() {
             <ul className="skillsMarquee">
                 {skills.map((skill, index) => (
                     <li
-                        className='skill'
+                        className="skill"
                         key={skill[0] as string}
-                        style={{animationDelay: `${index}s`}}
+                        style={{ animationDelay: `${index}s` }}
                     >
                         <FontAwesomeIcon icon={skill[1] as IconDefinition} />
                         {skill[0] as string}
