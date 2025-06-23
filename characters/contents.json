@@ -5,7 +5,7 @@
         "characters": [
             {
                 "name": "Field Marshal Ahmed Ismail",
-                "image": "characters/ahmedIsmail.jpg"
+                "image": "./characters/ahmedIsmail.jpg"
             },
             {
                 "name": "Youssif Mansour",
@@ -19,7 +19,7 @@
         "characters": [
             {
                 "name": "Dr. Samira Mousa",
-                "image": "characters/samiraMousa.jpg"
+                "image": "./characters/samiraMousa.jpg"
             }
         ]
     }
