@@ -1,1 +1,107 @@
-@font-face{font-family:Poppins;src:url(/honourDay2025-3rdPrep/assets/Poppins-Regular-CTKNfV9P.ttf)}body{background-color:#011638;color:#dff8eb;text-align:center;font-family:Poppins;padding-block:20px}p{text-align:justify;padding-inline:20px}.skillsMarquee{overflow:scroll;list-style:none;display:flex;padding:0;margin:0;gap:10px}::-webkit-scrollbar{display:none}.logo{border-radius:25px}.skill{text-align:center;display:flex;flex-direction:column;justify-content:center;align-items:center;animation:move 3s forwards;background-color:#364156;width:150px;min-width:150px;height:100px;gap:20px;border-radius:10px}h1,h3{line-height:10px}.traitsMarquee{list-style:none;padding:0;margin:0}.trait{text-align:center;align-items:center;animation:move 3s forwards;background-color:#364156;min-width:150px;gap:20px;padding-block:20px;border-radius:10px}.trait p{text-align:center}.trait ul{padding:0;margin:0;list-style:none}.trait ul img{border-radius:1000px;width:128px;aspect-ratio:1}.characters{display:flex;justify-content:center;align-items:center;gap:50px;overflow:scroll}.character{display:flex;flex-direction:column;justify-content:center;align-items:center}button{-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:#364156;border:none;border-radius:100px;padding:5px;margin:5px;width:100px;cursor:pointer;color:#fff;font:inherit}
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+body {
+  font-family: 'Lexend';
+  text-align: center;
+  background-color: black;
+  backdrop-filter: blur(10px);
+  position: relative;
+  background-image: url('https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-virtual-background-_Tcjok-d9b4.jpg');
+  max-width: 421px;
+  margin-inline: auto;
+  padding-block: 20px;
+  background-size: auto 100%;
+}
+
+p {
+  text-align: justify;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 10px;
+  overflow-x: scroll;
+  padding-bottom: 5px;
+  &::-webkit-scrollbar {
+    height: 10px;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: #0000;
+  }
+  &::-webkit-scrollbar-button {
+    appearance: default;
+    width: 10px;
+    background-color: #fff8; 
+    height: 10px;
+    display: block;
+    border-radius: 1000px;
+    
+  }
+  
+  li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff8;
+    height: 100%;
+    border-radius: 10px;
+    padding: 20px;
+  }
+}
+
+img {
+  border-radius: 10px;
+}
+
+.skillsMarquee {
+  margin-inline: auto;
+}
+
+.skill {
+  width: 200px;
+  min-width: 200px;
+}
+
+h1, h3 {
+  line-height: 10px;
+}
+
+h3 {
+  padding-bottom: 20px;
+}
+
+.trait {
+  width: calc(100% - 40px);
+  min-width: calc(100% - 40px);
+  max-width: calc(100% - 40px);
+  scroll-snap-align: center;
+  flex: none;
+
+  img {
+    max-width: 100px;
+    border-radius: 1000px;
+    margin-bottom: 20px;
+    background-color: #0004;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    aspect-ratio: 1/1;
+  }
+  
+  .character {
+    flex: none;
+    height: calc(100% - 40px);
+    min-width: calc(100% - 40px);
+    max-height: calc(100% - 40px);
+    scroll-snap-align: center;
+  }
+}
+
+.traitsMarquee, .characters {
+  scroll-snap-type: x mandatory;
+}
